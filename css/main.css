@@ -256,6 +256,9 @@ html {
   height: 19px;
   margin-left: 40px;
   position: relative; }
+  .header__link:hover::before {
+    color: #fce38a;
+    transition: 350ms ease; }
   .header__link::before {
     position: absolute;
     top: 50%;
@@ -265,7 +268,8 @@ html {
     font-family: "FontAwesome";
     font-size: 19px;
     height: 26px;
-    width: 14px; }
+    width: 14px;
+    transition: 350ms ease; }
   .header__link:nth-of-type(1)::before {
     content: '\f07a'; }
   .header__link:nth-of-type(2)::before {

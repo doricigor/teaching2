@@ -52,6 +52,13 @@
     margin-left: 40px;
     position: relative;
 
+    &:hover {
+        &::before {
+            color: $yellow;
+            transition: $dur $ease;
+        }
+    }
+
     &::before {
         position: absolute;
         top: 50%;
@@ -62,6 +69,7 @@
         font-size: 19px;
         height: 26px;
         width: 14px;
+        transition: $dur $ease;
     }
 
     &:nth-of-type(1) {
