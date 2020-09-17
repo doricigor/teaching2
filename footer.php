@@ -15,33 +15,49 @@
                             <span class="footer__box-social-icon-title">Follow Us:</span>
                             <ul class="footer__box-social-icon-list">
                                 <li class="footer__box-social-icon-list-item">
-                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;"></a>
+                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
                                 </li>
                                 <li class="footer__box-social-icon-list-item">
-                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;"></a>
+                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
                                 </li>
                                 <li class="footer__box-social-icon-list-item">
-                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;"></a>
+                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
                                 </li>
                                 <li class="footer__box-social-icon-list-item">
-                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;"></a>
+                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
                                 </li>
                                 <li class="footer__box-social-icon-list-item">
-                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;"></a>
+                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;">
+                                        <i class="fab fa-google-plus"></i>
+                                    </a>
                                 </li>
                                 <li class="footer__box-social-icon-list-item">
-                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;"></a>
+                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
                                 </li>
                                 <li class="footer__box-social-icon-list-item">
-                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;"></a>
+                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;">
+                                        <i class="fab fa-tumblr"></i>
+                                    </a>
                                 </li>
                                 <li class="footer__box-social-icon-list-item">
-                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;"></a>
+                                    <a class="footer__box-social-icon-list-item-link" href="javascript:;">
+                                        <i class="fab fa-tumblr"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                         <div class="footer__box-social-news">
-                            <input class="footer__box-social-news-emil" type="email" placeholder="Your Email...">
+                            <input class="footer__box-social-news-email" type="email" placeholder="Your Email...">
                             <input class="footer__box-social-news-sub" type="submit" value="SUBSCRIBE">
                         </div>
                     </div>
@@ -51,7 +67,7 @@
                     <div class="footer__blog-item-wrap">
                         <div class="footer__blog-item">
                             <div class="footer__blog-item-img-wrap">
-                                <img src="img/footer-blog-1.jpg" alt="Img" class="footer__blog-item-img">
+                                <img class="footer__blog-item-img" src="img/footer-blog-1.jpg" alt="Img">
                             </div>
                             <div class="footer__blog-item-content">
                                 <a class="footer__blog-item-content-link" href="javascript:;">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
@@ -60,7 +76,7 @@
                         </div>
                         <div class="footer__blog-item">
                             <div class="footer__blog-item-img-wrap">
-                                <img src="img/footer-blog-2.jpg" alt="Img" class="footer__blog-item-img">
+                                <img class="footer__blog-item-img" src="img/footer-blog-2.jpg" alt="Img">
                             </div>
                             <div class="footer__blog-item-content">
                                 <a class="footer__blog-item-content-link" href="javascript:;">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
@@ -69,7 +85,7 @@
                         </div>
                         <div class="footer__blog-item">
                             <div class="footer__blog-item-img-wrap">
-                                <img src="img/footer-blog-3.jpg" alt="Img" class="footer__blog-item-img">
+                                <img class="footer__blog-item-img" src="img/footer-blog-3.jpg" alt="Img">
                             </div>
                             <div class="footer__blog-item-content">
                                 <a class="footer__blog-item-content-link" href="javascript:;">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
