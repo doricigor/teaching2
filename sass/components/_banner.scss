@@ -1,0 +1,12 @@
+.banner {
+    max-height: 1000px;
+    background: $gradient;
+    overflow: hidden;
+}
+
+.banner__img {
+    margin-top: -140px;
+    opacity: .2;
+    max-width: 100%;
+    width: 100%;
+}

@@ -143,6 +143,7 @@
                             </a>
                         </div>
                     </div>
+                    <a class="footer__gallery-link" href="javascript:;">View more photos</a>
                 </div>
             </div>
         </div>
