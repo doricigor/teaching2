@@ -2,14 +2,17 @@
 	font-family: $font-main;
 	font-size: 150px;
 	font-weight: 700;
+	line-height: 140px;
 	text-transform: uppercase;
 	color: $white;
 	position: relative;
+	text-align: center;
+	letter-spacing: -4.9px;
 
 	&::after {
 		content: '';
 		position: absolute;
-		bottom: -40px;
+		bottom: -59px;
 		left: 50%;
 		transform: translateX(-50%);
 		width: 60px;

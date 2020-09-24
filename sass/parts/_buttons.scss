@@ -6,16 +6,25 @@
 	font-size: 14px;
 	font-family: $font-main;
 	font-weight: 700;
-	padding: 10px 20px;
+	padding: 7px 20px;
 	outline: none;
-	min-width: 150px;
+	min-width: 160px;
 	transition: $dur $ease;
 	position: relative;
 	border: 2px solid $white;
 	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: -.6px;
+
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
     
     &:hover {
-        // color: $black;
-        // transition: $dur $ease;
+		color: $white;
+		background-color: $green;
+		border: 2px solid $green;
+        transition: $dur $ease;
     }
 }

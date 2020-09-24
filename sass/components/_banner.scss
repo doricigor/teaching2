@@ -2,11 +2,49 @@
     max-height: 1000px;
     background: $gradient;
     overflow: hidden;
+    position: relative;
 }
 
 .banner__img {
-    margin-top: -140px;
     opacity: .2;
+    margin-top: -140px;
+}
+
+.banner__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 95px;
+}
+
+.banner__slider-wrap {
     max-width: 100%;
     width: 100%;
+}
+
+.banner__slider {
+
+}
+
+.banner__slide {
+}
+
+.banner__slide-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__slide-pretitle {
+    margin-bottom: 39px;
+}
+
+.banner__slide-title {
+    margin-bottom: 110px;
+}
+
+.banner__slide-btn {
+
 }
