@@ -5,6 +5,7 @@ $(document).ready(function() {
         slidesToScroll: 1,
         speed: 500,
         dots: true,
+        appendDots: $('.js-banner-dots'),
         autoplay: false,
         arrows: false,
         rows: 0,

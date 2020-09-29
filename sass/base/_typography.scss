@@ -34,15 +34,17 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
+	letter-spacing: -.7px;
+	margin-bottom: 35px;
 
 	&::after {
 		content: '';
 		position: absolute;
-		bottom: -40px;
+		bottom: -35px;
 		left: 50%;
 		transform: translateX(-50%);
 		width: 60px;
-		height: 2px;
+		height: 3px;
 		background-color: $red;
 	}
 }
@@ -51,6 +53,8 @@
 	color: $grey-dark;
 	font-size: 24px;
 	font-family: $font-second;
+	letter-spacing: -3px;
+	margin-bottom: 13px;
 }
 
 .entry-content {

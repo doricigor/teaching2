@@ -15,7 +15,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 95px;
 }
 
 .banner__slider-wrap {
@@ -38,7 +37,7 @@
 }
 
 .banner__slide-pretitle {
-    margin-bottom: 39px;
+    margin-bottom: 29px;
 }
 
 .banner__slide-title {
@@ -47,4 +46,87 @@
 
 .banner__slide-btn {
 
+}
+
+.banner__dots {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .slick-dots {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            max-width: 23.5%;
+            width: 100%;
+            height: 3px;
+            background-color: $white;
+            position: relative;
+            transition: $dur $ease;
+            opacity: .5;
+            cursor: pointer;
+
+            &::before {
+                content: '';
+                height: 3px;
+                width: 0;
+                background-color: $red;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: $dur $ease;
+            }
+
+            &::after {
+                position: absolute;
+                left: 0;
+                bottom: -48px;
+                color: $white;
+                font-family: $font-main;
+                font-size: 18px;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+            }
+
+            &:nth-child(1) {
+                &::after {
+                    content: '01 Intro';
+                }
+            }
+
+            &:nth-child(2) {
+                &::after {
+                    content: '02 Work';
+                }
+            }
+
+            &:nth-child(3) {
+                &::after {
+                    content: '03 About';
+                }
+            }
+
+            &:nth-child(4) {
+                &::after {
+                    content: '04 Contacts';
+                }
+            }
+
+            button {
+                display: none;
+            }
+
+            &.slick-active {
+                opacity: 1;
+                transition: $dur $ease;
+
+                &::before {
+                    width: 25%;
+                    transition: $dur $ease;
+                }
+            }
+        }
+    }
 }

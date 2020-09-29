@@ -5,6 +5,7 @@
 ?>
     <div class="site-content">
         <main class="site-main">
+            <!-- Banner -->
             <div class="banner">
                 <img class="banner__img" src="img/banner.jpg" alt="img">
                 <div class="container banner__container">
@@ -41,10 +42,26 @@
                         </div>
                     </div>
                 </div>
+                <div class="banner__dots js-banner-dots container"></div>
+            </div>
+            <!-- Hover section -->
+            <div class="hover-section">
+                <div class="container">
+                    <div class="basic-block">
+                        <h3 class="section-pretitle">We work with</h3>
+                        <h2 class="section-title">Story About Us</h2>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="hover-section__wrap">
+
+                    </div>
+                </div>
             </div>
         </main>
     </div>
 <?php
-    include("footer.php")
+    include("footer.php");
 ?>
 </html>
