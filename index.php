@@ -47,15 +47,74 @@
             <!-- Hover section -->
             <div class="hover-section">
                 <div class="container">
-                    <div class="basic-block">
-                        <h3 class="section-pretitle">We work with</h3>
-                        <h2 class="section-title">Story About Us</h2>
-                        <div class="entry-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        </div>
+                    <h3 class="section-pretitle">We work with</h3>
+                    <h2 class="section-title">Story About Us</h2>
+                    <div class="entry-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>
                     <div class="hover-section__wrap">
-
+                        <div class="row">
+                            <div class="col-lg-4 hover-section__box-wrap">
+                                <div class="hover-section__box">
+                                    <div class="hover-section__box-inner">
+                                        <img class="hover-section__box-inner-img" src="img/story-1.jpg" alt="Story img">
+                                        <div class="hover-section__box-inner-content">
+                                            <i class="fas fa-users"></i>
+                                            <span>Super team</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 hover-section__box-wrap">
+                                <div class="hover-section__box">
+                                    <div class="hover-section__box-inner">
+                                        <img class="hover-section__box-inner-img" src="img/story-2.jpg" alt="Story img">
+                                        <div class="hover-section__box-inner-content">
+                                            <i class="fas fa-users"></i>
+                                            <span>Super team</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 hover-section__box-wrap">
+                                <div class="hover-section__box">
+                                    <div class="hover-section__box-inner">
+                                        <img class="hover-section__box-inner-img" src="img/story-3.jpg" alt="Story img">
+                                        <div class="hover-section__box-inner-content">
+                                            <i class="fas fa-users"></i>
+                                            <span>Super team</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Count -->
+            <div class="count">
+                <div class="container">
+                    <div class="count__wrap">
+                        <div class="count__box">
+                            <span class="count__box-num">42</span>
+                            <span class="count__box-text">Web design projects</span>
+                        </div>
+                        <div class="count__box">
+                            <span class="count__box-num">123</span>
+                            <span class="count__box-text">Happy client</span>
+                        </div>
+                        <div class="count__box">
+                            <span class="count__box-num">15</span>
+                            <span class="count__box-text">Award winner</span>
+                        </div>
+                        <div class="count__box">
+                            <span class="count__box-num">99</span>
+                            <span class="count__box-text">Cup of coffee</span>
+                        </div>
+                        <div class="count__box">
+                            <span class="count__box-num">24</span>
+                            <span class="count__box-text">Members</span>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -36,6 +36,7 @@
 	position: relative;
 	letter-spacing: -.7px;
 	margin-bottom: 35px;
+	text-align: center;
 
 	&::after {
 		content: '';
@@ -55,9 +56,15 @@
 	font-family: $font-second;
 	letter-spacing: -3px;
 	margin-bottom: 13px;
+	text-align: center;
 }
 
 .entry-content {
+	max-width: 84%;
+	width: 100%;
+	text-align: center;
+	margin: 76px auto 0;
+
 	p {
 		font-family: $font-third;
 		font-size: 15px;
