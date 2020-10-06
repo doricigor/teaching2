@@ -94,25 +94,25 @@
             <!-- Count -->
             <div class="count">
                 <div class="container">
-                    <div class="count__wrap">
+                    <div class="count__wrap js-count">
                         <div class="count__box">
-                            <span class="count__box-num">42</span>
+                            <span class="count__box-num js-count-num" data-count="42">0</span>
                             <span class="count__box-text">Web design projects</span>
                         </div>
                         <div class="count__box">
-                            <span class="count__box-num">123</span>
+                            <span class="count__box-num js-count-num" data-count="123">0</span>
                             <span class="count__box-text">Happy client</span>
                         </div>
                         <div class="count__box">
-                            <span class="count__box-num">15</span>
+                            <span class="count__box-num js-count-num" data-count="15">0</span>
                             <span class="count__box-text">Award winner</span>
                         </div>
                         <div class="count__box">
-                            <span class="count__box-num">99</span>
+                            <span class="count__box-num js-count-num" data-count="99">0</span>
                             <span class="count__box-text">Cup of coffee</span>
                         </div>
                         <div class="count__box">
-                            <span class="count__box-num">24</span>
+                            <span class="count__box-num js-count-num" data-count="24">0</span>
                             <span class="count__box-text">Members</span>
                         </div>
                     </div>
