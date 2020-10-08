@@ -54,7 +54,7 @@
                     </div>
                     <div class="hover-section__wrap">
                         <div class="row">
-                            <div class="col-lg-4 hover-section__box-wrap">
+                            <div class="hover-section__box-wrap">
                                 <div class="hover-section__box">
                                     <div class="hover-section__box-inner">
                                         <img class="hover-section__box-inner-img" src="img/story-1.jpg" alt="Story img">
@@ -114,6 +114,63 @@
                         <div class="count__box">
                             <span class="count__box-num js-count-num" data-count="24">0</span>
                             <span class="count__box-text">Members</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- List section -->
+            <div class="list">
+                <div class="container list__container">
+                    <h3 class="section-pretitle">We work with</h3>
+                    <h2 class="section-title">Amazing services</h2>
+                    <div class="list__row">
+                        <div class="list__box-wrap">
+                            <div class="list__box">
+                                <span class="list__box-title">Photography</span>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list__box-wrap">
+                            <div class="list__box">
+                                <span class="list__box-title">Web Design</span>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list__box-wrap">
+                            <div class="list__box">
+                                <span class="list__box-title">Creativity</span>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list__box-wrap">
+                            <div class="list__box">
+                                <span class="list__box-title">SEO</span>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list__box-wrap">
+                            <div class="list__box">
+                                <span class="list__box-title">CSS/HTML</span>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list__box-wrap">
+                            <div class="list__box">
+                                <span class="list__box-title">Digital</span>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

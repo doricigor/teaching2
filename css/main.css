@@ -345,7 +345,9 @@ html {
   background-color: #f8f8f8; }
   .footer .entry-content {
     padding-left: 5px;
-    padding-right: 10px; }
+    padding-right: 10px;
+    margin: 0;
+    text-align: left; }
     .footer .entry-content p {
       color: #b7b7b7; }
 
@@ -773,3 +775,66 @@ html {
   color: #fff;
   display: block;
   text-transform: uppercase; }
+
+.list {
+  padding-top: 108px;
+  padding-bottom: 26px; }
+  .list .entry-content {
+    margin: 0;
+    text-align: left;
+    max-width: 100%; }
+
+.list__row {
+  margin-top: 99px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative; }
+  .list__row::after {
+    content: '';
+    background-color: #ececec;
+    height: 1px;
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    top: 37%;
+    position: absolute; }
+
+.list__box-wrap {
+  max-width: 33.33%;
+  width: 100%;
+  margin-bottom: 87px; }
+  .list__box-wrap:nth-child(1) .list__box::before {
+    content: '\f270'; }
+  .list__box-wrap:nth-child(2) .list__box::before {
+    content: '\f270'; }
+  .list__box-wrap:nth-child(3) .list__box::before {
+    content: '\f270'; }
+  .list__box-wrap:nth-child(4) .list__box::before {
+    content: '\f270'; }
+  .list__box-wrap:nth-child(5) .list__box::before {
+    content: '\f270'; }
+  .list__box-wrap:nth-child(6) .list__box::before {
+    content: '\f270'; }
+
+.list__box {
+  padding-left: 91px;
+  position: relative; }
+  .list__box::before {
+    position: absolute;
+    top: -3px;
+    left: 31px;
+    color: #95e1d3;
+    font-family: "FontAwesome";
+    font-size: 35px;
+    height: 35px; }
+
+.list__box-title {
+  display: block;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  letter-spacing: -.3px;
+  font-weight: 400; }
