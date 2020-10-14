@@ -54,7 +54,7 @@
                     </div>
                     <div class="hover-section__wrap">
                         <div class="row">
-                            <div class="hover-section__box-wrap">
+                            <div class="col-lg-4 hover-section__box-wrap">
                                 <div class="hover-section__box">
                                     <div class="hover-section__box-inner">
                                         <img class="hover-section__box-inner-img" src="img/story-1.jpg" alt="Story img">
@@ -169,6 +169,77 @@
                                 <span class="list__box-title">Digital</span>
                                 <div class="entry-content">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bg section -->
+            <div class="bg-section">
+                <img class="bg-section__background" src="img/background-bg.jpg" alt="bg image">
+                <div class="container bg-section__container">
+                    <h3 class="section-pretitle">For all devices</h3>
+                    <h2 class="section-title">Unique Design</h2>
+                    <div class="bg-section__img-wrap">
+                        <img class="bg-section__img" src="img/bg-big.png" alt="bg image">
+                        <img class="bg-section__img" src="img/bg-small.png" alt="bg image">
+                    </div>
+                </div>
+            </div>
+            <!-- Accordion -->
+            <div class="accordion">
+                <div class="container">
+                    <h3 class="section-pretitle">We work with</h3>
+                    <h2 class="section-title">Story About Us</h2>
+                    <div class="entry-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <div class="accordion__wrap">
+                        <div class="accordion__img-wrap">
+                            <img class="accordion__img" src="img/accordion-img.jpg" alt="acc img">
+                        </div>
+                        <div class="accordion__container">
+                            <div class="accordion__box">
+                                <div class="accordion__box-head">
+                                    <span class="accordion__box-head-icon"></span>
+                                    <span class="accordion__box-head-title">Photography</span>
+                                    <span class="accordion__box-head-arrow"></span>
+                                </div>
+                                <div class="accordion__box-body">
+                                    <div class="accordion__box-body-inner">
+                                        <div class="entry-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__box">
+                                <div class="accordion__box-head">
+                                    <span class="accordion__box-head-icon"></span>
+                                    <span class="accordion__box-head-title">Creativity</span>
+                                    <span class="accordion__box-head-arrow"></span>
+                                </div>
+                                <div class="accordion__box-body">
+                                    <div class="accordion__box-body-inner">
+                                        <div class="entry-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__box">
+                                <div class="accordion__box-head">
+                                    <span class="accordion__box-head-icon"></span>
+                                    <span class="accordion__box-head-title">Web design</span>
+                                    <span class="accordion__box-head-arrow"></span>
+                                </div>
+                                <div class="accordion__box-body">
+                                    <div class="accordion__box-body-inner">
+                                        <div class="entry-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
