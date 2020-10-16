@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // Slider
     $('.js-slider').slick({
         infinite: false,
         slidesToShow: 1,
@@ -19,6 +20,7 @@ $(document).ready(function() {
         // ]
     });
 
+    // Count section
     let check = 0;
 
     $(window).scroll(function() {
@@ -53,6 +55,33 @@ $(document).ready(function() {
                 });
             });
             check = 1;
+        }
+    });
+
+    // Accordion
+
+    // Box - js-accordion
+    // Head - js-accordion-title
+    // Body - js-accordion-body
+
+    // Na klik head-a pokrecemo funkciju
+    $('.js-accordion-title').on('click', function() {
+
+        // Proveravamo da li je kliknuti head vec aktivan i otvoren
+        if ($(this).parent().hasClass('active')) {
+            // Ako je otvoren, zatvori njegov body
+            $(this).siblings().slideUp();
+            // I skini njegovom boxu aktivnu klasu
+            $(this).parent().removeClass('active');
+        } else {
+            // Ako kliknuti head nije aktivan i otvoren zatvori sve body-e koje accordion ima
+            $('.js-accordion-body').slideUp();
+            // Svim boxovima skloni aktivnu klasu
+            $('.js-accordion').removeClass('active');
+            // Na kliknuti head otvori njegov body
+            $(this).siblings().slideDown();
+            // Na kliknuti head njegovom boxu daj aktivnu klasu
+            $(this).parent().addClass('active');
         }
     });
 

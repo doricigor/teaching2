@@ -193,48 +193,54 @@
                     <h3 class="section-pretitle">We work with</h3>
                     <h2 class="section-title">Story About Us</h2>
                     <div class="entry-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?
+                        </p>
                     </div>
                     <div class="accordion__wrap">
                         <div class="accordion__img-wrap">
                             <img class="accordion__img" src="img/accordion-img.jpg" alt="acc img">
                         </div>
                         <div class="accordion__container">
-                            <div class="accordion__box">
-                                <div class="accordion__box-head">
+                            <div class="accordion__box js-accordion active">
+                                <div class="accordion__box-head js-accordion-title">
                                     <span class="accordion__box-head-icon"></span>
                                     <span class="accordion__box-head-title">Photography</span>
                                     <span class="accordion__box-head-arrow"></span>
                                 </div>
-                                <div class="accordion__box-body">
+                                <div class="accordion__box-body js-accordion-body">
                                     <div class="accordion__box-body-inner">
                                         <div class="entry-content">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion__box">
-                                <div class="accordion__box-head">
+                            <div class="accordion__box js-accordion">
+                                <div class="accordion__box-head js-accordion-title">
                                     <span class="accordion__box-head-icon"></span>
                                     <span class="accordion__box-head-title">Creativity</span>
                                     <span class="accordion__box-head-arrow"></span>
                                 </div>
-                                <div class="accordion__box-body">
+                                <div class="accordion__box-body js-accordion-body">
                                     <div class="accordion__box-body-inner">
                                         <div class="entry-content">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion__box">
-                                <div class="accordion__box-head">
+                            <div class="accordion__box js-accordion">
+                                <div class="accordion__box-head js-accordion-title">
                                     <span class="accordion__box-head-icon"></span>
                                     <span class="accordion__box-head-title">Web design</span>
                                     <span class="accordion__box-head-arrow"></span>
                                 </div>
-                                <div class="accordion__box-body">
+                                <div class="accordion__box-body js-accordion-body">
                                     <div class="accordion__box-body-inner">
                                         <div class="entry-content">
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam rem! Totam, dicta nisi iusto dolore molestias obcaecati. Facilis quibusdam hic est enim? Provident earum ea magni cupiditate ipsam? Repellat?</p>

@@ -34,3 +34,27 @@ input::-ms-clear {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
 }
+
+// Custom scrollbar
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $grey-light;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $green;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $green;
+}
